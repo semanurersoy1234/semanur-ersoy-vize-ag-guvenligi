@@ -1,0 +1,20 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.d8956580.min.css' | url }}">
+{% endblock %}
+{% block announce %}
+  <a href="http://gmail.com/">  
+		Daha fazla bilgi için benimle iletişime geçin:<strong> 440089@ogr.ktu.edu.tr</strong> on
+    <span class="twemoji">
+      {% include ".icons/fontawesome/brands/google.svg" %}
+    </span>
+    <strong>Gmail</strong>
+  </a>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'overrides/assets/javascripts/bundle.7af4aac1.min.js' | url }}"></script>
+{% endblock %}
